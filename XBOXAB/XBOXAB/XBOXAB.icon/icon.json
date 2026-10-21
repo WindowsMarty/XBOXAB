@@ -1,0 +1,212 @@
+{
+  "features" : [
+    "refractivity"
+  ],
+  "fill" : {
+    "solid" : "srgb:0.00000,0.00000,0.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "blend-mode-specializations" : [
+        {
+          "value" : "hard-light"
+        },
+        {
+          "appearance" : "tinted",
+          "value" : "plus-lighter"
+        }
+      ],
+      "hidden" : true,
+      "layers" : [
+        {
+          "blend-mode" : "multiply",
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "srgb:0.00000,0.23700,0.44900,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.00000,0.23529,0.44706,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "gray:0.03600,1.00000"
+              }
+            }
+          ],
+          "glass" : false,
+          "image-name" : "swift.svg",
+          "name" : "swift",
+          "position" : {
+            "scale" : 0.35,
+            "translation-in-points" : [
+              41.23405890055088,
+              7.656244937457473
+            ]
+          }
+        },
+        {
+          "blend-mode" : "plus-lighter",
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "display-p3:0.88700,0.93900,0.99300,0.90000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.76100,0.78800,0.81600,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "gray:1.00000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "1.beta.lozenge.svg",
+          "name" : "1.beta.lozenge",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              50.88737930055086,
+              17.63866698745767
+            ]
+          }
+        },
+        {
+          "blend-mode" : "plus-lighter",
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "display-p3:0.88700,0.93900,0.99300,0.40000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.47400,0.61100,0.74700,0.30000"
+              }
+            }
+          ],
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "1.beta.lozenge.svg",
+          "name" : "1.beta.lozenge",
+          "opacity-specializations" : [
+            {
+              "value" : 0
+            },
+            {
+              "appearance" : "dark",
+              "value" : 0.47
+            }
+          ],
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              50.88737930055086,
+              17.63866698745767
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:0.00000,0.00000,0.00000,1.00000"
+          },
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "1.beta.lozenge.svg",
+          "name" : "1.beta.lozenge",
+          "opacity" : 0.85,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              50.88737930055086,
+              17.63866698745767
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "position" : {
+        "scale" : 0.9,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "refractivity" : {
+        "depth" : 0.07,
+        "enabled" : true,
+        "strength" : 0.39
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 1
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.42
+      }
+    },
+    {
+      "blend-mode" : "normal",
+      "hidden" : false,
+      "layers" : [
+        {
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "XBOX_logo_Sphere_4C_forLight_RGB_2026-05-20.png",
+          "name" : "XBOX_logo_Sphere_4C_forLight_RGB_2026-05-20",
+          "position" : {
+            "scale" : 0.8,
+            "translation-in-points" : [
+              329,
+              119
+            ]
+          }
+        },
+        {
+          "glass" : true,
+          "image-name" : "Square150x150Logo.scale-200.png",
+          "name" : "Square150x150Logo.scale-200",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              70,
+              51
+            ]
+          }
+        }
+      ],
+      "lighting" : "individual",
+      "name" : "Group",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.4
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
